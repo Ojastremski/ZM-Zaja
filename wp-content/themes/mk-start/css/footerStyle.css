@@ -1,0 +1,181 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.footer{
+	width:100%;
+	height:100%;
+	background-color: #eaeaea;
+}
+
+.centering {
+	position: relative;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin: 0 auto !important;
+	display: table;
+}
+
+.footerLogo {
+	background-image: url("http://zmziaja.pl/wp-content/uploads/2018/03/logo-stopka.png");
+	width: 263px;
+	height: 100px;
+	float: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.largeSeparator {
+	height: 116px;
+	width: 1px;
+	border-right: 1px solid #606060;
+	float:left;
+	margin-left:30px;
+}
+
+.xsLargeSeparator {
+	height: 1px;
+	width: 100%;
+	border-bottom: 1px solid #606060;
+	margin-top: 120px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.largeSeparator{
+		height: 210px;
+	}
+	
+	.footerLogo {
+		margin-top: 40px;
+	}
+}
+
+.smallSeparator {
+	height: 62px;
+	width: 1px;
+	background-color: #606060;
+	float:left;
+	margin-left:30px;
+	margin-top: 15px;
+}
+
+.xsSmallSeparator {
+	height: 1px;
+	width: 100%;
+	border-bottom: 1px solid #606060;
+	margin-top: 20px;
+}
+
+.blockPhone {
+	float: left;
+	margin-left:30px;
+	margin-top: 35px;
+}
+
+.mediumDevices  {
+	margin-top: 10px !important;
+}
+
+.mdLocation {
+	margin-left:100px !important;
+}
+
+.mdOfficeHours {
+	margin-left:50px !important;
+}
+
+.smallDevices {
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.smCentering {
+	padding-left: 190px !important;
+}
+
+@media (min-width: 768px) and (max-width: 868px) {
+	.smCentering {
+		padding-left: 100px !important;
+	}
+}
+
+@media (min-width: 869px) and (max-width: 900px) {
+	.smCentering {
+		padding-left: 150px !important;
+	}
+}
+
+.blockNavigation {
+	float: left;
+	margin-left:30px;
+	margin-top: 33px;
+}
+
+.blockOfficeHours {
+	float: left;
+	margin-left:30px;
+	margin-top: 33px;
+}
+
+.blockEmail {
+	float: left;
+	margin-left:30px;
+	margin-top: 33px;
+}
+
+.footerText {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #606060;
+}
+
+@media (min-width: 1200px) and (max-width: 1270px) {
+	.footerText {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		color: #606060;
+	}
+}
+
+.contactDetails {
+	margin-top: -28px;
+	margin-left: 35px;
+}
+
+.locationDetails {
+	margin-top: -40px;
+	margin-left: 35px;
+}
+
+.officeHoursDetails {
+	margin-top: -40px;
+	margin-left: 35px;
+}
+
+.emailDetails {
+	margin-top: -28px;
+	margin-left: 35px;
+}
+
+.lineSeparator {
+	height:45px;
+}
+
+.producentBelt {
+	width: 100%;
+	background-color: #fff;
+}
+
+.producentSignature {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #606060;
+	text-align: center;
+	line-height: 60px;
+	margin-top: 10px;
+}
+
+.producentSignature a {
+	color: #606060;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	background-color: #fff;
+}
+
+.column {
+  padding: 10px 10px 10px 10px;
+}
+
+.test2 {
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+}
+
+.aclass > img {
+  -webkit-transition: -webkit-transform 0.4s ease;
+  -moz-transition: -moz-transform 0.4s ease;
+  -o-transition: -o-transform 0.4s ease;
+  transition: transform 0.4s ease;
+}
+
+.aclass > img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+  	-webkit-filter: brightness(0.65);
+	-moz-filter: brightness(0.65);
+	-o-filter: brightness(0.65);
+	-ms-filter: brightness(0.65);
+	filter: brightness(0.65);
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+}
+
+ .test2 img { 
+	height: 244px;
+	-webkit-filter: brightness(0.45);
+	-moz-filter: brightness(0.45);
+	-o-filter: brightness(0.45);
+	-ms-filter: brightness(0.45);
+	filter: brightness(0.45);
+}
+
+.title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: #fff;
+	position: absolute;
+	top: 40%;
+	text-transform: uppercase;
+	padding-left: 0px;
+	width: 96%;
+	text-align:center;
+}
+
+.sectionOffer {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.sectionTitle {
+	background-image: url(http://zmziaja.pl/wp-content/uploads/2018/03/nasza-oferta.png);
+	background-size: contain;
+}
+
+@media (min-width: 600px){
+	.enlargement{
+		background-image: url(http://zmziaja.pl/wp-content/uploads/2018/03/nasza-oferta.png);
+		width: 350px;
+		height: 71px;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (max-width: 600px){
+	.enlargement{
+		background-image: url(http://zmziaja.pl/wp-content/uploads/2018/03/nasza-oferta.png);
+		height: 80px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}

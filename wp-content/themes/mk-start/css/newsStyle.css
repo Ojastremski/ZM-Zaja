@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+	background-color: #fff;
+}
+
+@media (max-width: 1244px) {
+	.center {
+		float: none !important;
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 1245px) {
+	.tileRightAlign {
+		float: right;
+	}
+	
+	.tileLeftAlign {
+		float: left;
+	}
+}
+
+.tileNews {
+	position: relative;
+	width: 572px;
+	height: 360px;
+}
+
+.blockThumbnail {
+	width: 438px;
+	height: 100%;
+	position:absolute;
+	right:0;
+}
+
+.my_thumbnail {
+	width: 100%;
+	height: 100%;
+}
+
+.my_thumbnailInPost {
+	float:left;
+	margin-right:15px;
+}
+
+.structurePostDescription {
+	margin: 40px 0 40px 0;
+}
+
+.blockTitle {
+	position: absolute;
+	background-color: #a20d10;
+	opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+	width: 100%;
+	height: 75px;
+	line-height: 75px;
+	bottom:0;
+	text-align:center;
+}
+
+.titleText {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 19px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.blockDatePublish {
+	position:absolute;
+	left:0;
+	height: 100%;
+	width: 124px;
+	background-color: #ededed;
+}
+
+.separatorInNewsTile {
+	position:absolute; 
+	left:124px;
+	height:100%; 
+	width:10px; 
+	background-color:#fff;
+}
+
+.separatorRow {
+	width: 100%;
+	height: 46px;
+	float: left;	
+}
+
+.separatorMobileRow {
+	width: 100%;
+	height: 46px;
+	float: left;
+}
+
+.month {
+	position: absolute;
+	left:18%;
+	top: 25%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 38px;
+	color: #363636;
+	font-weight: 400;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.day {
+	position: absolute;
+	left: 18%;
+	top: 40%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 80px;
+	color: #363636;
+	font-weight: 700;
+}
+
+.descriptionPost {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.newsLogo {
+	background-image: url(http://zmziaja.pl/wp-content/uploads/2018/03/aktualnosci.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 334px;
+	height: 78px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.oldPost {
+	width: 162px;
+	height: 70px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #606060;
+	background-color: #ededed;
+	border: none;
+	margin: 0 auto;
+    display: table;
+	-webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+.oldPost:hover {
+	background-color: #cbcbcb;
+	color: #606060;
+}
+
+#oldPost:disabled {
+	color: #606060;
+	background-color: #ededed;
+}
+
+.sectionNews {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+@media (min-width: 600px){
+	.sectionTitleNews{
+		background-image: url(http://zmziaja.pl/wp-content/uploads/2018/03/aktualnosci.png);
+		width: 350px;
+		height: 71px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-left: 18px;
+	}
+}
+
+@media (max-width: 600px){
+	.sectionTitleNews{
+		background-image: url(http://zmziaja.pl/wp-content/uploads/2018/03/aktualnosci.png);
+		height: 80px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}

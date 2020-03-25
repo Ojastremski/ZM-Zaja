@@ -1,0 +1,43 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2>Ustawienia Slidera</h2>
+
+        <h5>Zalecany rozmiar zdjęć szer.: 586px i wys.: 320px</h5>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+				<th>Numer oferty</th>
+                <th>Obrazek wyróżniający</th>
+                <th>Nazwa produktu</th>
+                <th>link do strony</th>
+                <th>Aktywny</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php foreach ($data as $slider) : ?>
+            <tr>
+				<td><?php echo $slider->offer_id; ?></td>
+                <td><img src="<?php echo $slider->upload_link_photo; ?>" style="width: 56px; height: 32px;"/></td>
+                <td><?php echo $slider->product_name; ?></td>
+                <td><?php echo $slider->link_to_page; ?></td>
+                <td><?php echo $slider->active; ?></td>
+                <td class="text-center">
+                    <a class="btn btn-xs btn-primary" href="<?php echo admin_url( 'admin.php?page=slider&action=delete&id=' . $slider->id); ?>">
+                        Usuń
+                    </a>
+                    <a class="btn btn-xs btn-primary" href="<?php echo admin_url( 'admin.php?page=slider&action=createoredit&id=' . $slider->id); ?>">
+                        Edytuj
+                    </a>
+                </td>
+            </tr>
+            <?php endforeach ?>
+            </tbody>
+        </table>
+        <div>
+            <a class="btn btn-primary" href="<?php echo admin_url( 'admin.php?page=slider&action=createoredit') ?>">Dodaj produkt</a>
+        </div>
+    </div>
+</div>

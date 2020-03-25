@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+	background-color: #fff;
+}
+
+/*.centering {
+	margin: 0 auto !important;
+	display: table;
+}*/
+
+.blockContactDetails {
+	margin-top: 106px;
+	float:left;
+}
+
+.caption {
+	width: 181px;
+	height: 59px;
+}
+
+.shortDescription {
+	margin-top: 56px;
+}
+
+.text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	color: #181818;
+}
+
+.contact {
+	margin-top: 86px;
+}
+
+.names {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 23px;
+	color: #181818;
+	text-transform: uppercase;
+}
+
+.referenceToName {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	color: #181818;
+}
+
+.separator {
+	height: 40px;
+}
+
+.inputSeparator {
+	height: 25px;
+}
+
+.sendForm {
+	margin-top: 160px;
+	margin-left: 120px;
+	float: left;
+}
+
+.form {
+	margin-top: 100px;
+}
+
+.content {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #181818;
+}
+
+.generalField{
+	width: 564px;
+	height: 46px;
+	border: 1px solid #181818; 	
+	padding-left: 15px;
+}
+
+.messageField{
+	width: 564px;
+	height: 153px;
+	border: 1px solid #181818; 	
+	padding-left: 15px;
+	padding-bottom: 100px;
+}
+
+.btnSendForm {
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+	border: none;
+	height: 46px;
+	width: 564px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400; 
+    font-size: 20px;
+	text-align: center;
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+.btnSendForm:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(24, 24, 24);
+	border: 2px solid rgb(24, 24, 24);
+}
+
+.map {
+	margin-top: 109px;
+}

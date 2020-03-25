@@ -1,0 +1,282 @@
+@import "bootstrap-3.3.7-dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*
+  Theme Name: mk-start
+  Theme URI: https://www.themeisle.com/
+  Description: This is a custom child theme I have created.
+  Author: ThemeIsle
+  URI: https://www.themeisle.com/
+  Version: 0.1
+  */
+body, html {
+	height: 100%;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/*	
+	##########################################
+	################# Header #################           
+	##########################################
+*/
+header {
+    position: relative;
+}
+
+header.front-page {
+    background-image: url(http://zmziaja.pl/wp-content/uploads/2018/02/frontPageImage.jpg);
+	height: 100%; 
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position:relative;
+}
+
+header.page {
+    background-image: url(http://zmziaja.pl/wp-content/uploads/2018/02/frontPageImage.jpg);
+	height: 100%; 
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position:relative;
+}
+
+.beltLogo {
+	position: absolute;
+	width:100%;
+	height:196px; 
+	background-color: #fff;
+	opacity: 0.85;
+    filter: alpha(opacity=85);
+	top:0;
+}
+
+.blockWelcome {
+	position: absolute;
+	left: 8%;
+}
+
+.textWelcome {
+	top: 45%;
+	width: 400px;
+	height: 110px;
+}
+
+@media (max-width: 450px){
+	.textWelcome {
+		width: 100%;
+		padding-right: 15%;
+	}
+}
+
+.textUnderWelcome {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	top: 60%;
+	text-transform: uppercase;
+}
+
+@media (max-height: 750px){
+	.textUnderWelcome {
+		top:68%;
+	}
+}
+
+.logo {
+	margin: 0 auto;
+	display: table;
+	width: 382px;
+	height: 145px;
+	margin-top: 20px;
+}
+
+@media (max-width: 520px){
+	.logo {
+		width: 340px;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+}
+
+.beltMenu{
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	background-color: #fff;
+	opacity: 0.85;
+    filter: alpha(opacity=85);
+	bottom:0;
+}
+
+.m_active_pos {
+	
+}
+
+.menuInserts {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.navbar-nav {
+	float:none !important;
+	margin: 0 auto;
+	display: table;
+	padding-top: 8px;
+}
+
+.navbar-header {
+	height: 70px;
+}
+
+.navbar-inverse {
+	background-color: #fff;
+	border:none;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.navbar-toggle {
+	top: 10px;
+}
+
+.navbar-nav > li > a {
+	color: #181818 !important;
+	font-weight: 400;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	color: #a20d10 !important;
+	font-weight: 600;
+}
+
+.icon-bar {
+	background-color: #000 !important;
+}
+
+.navbar-collapse {
+	text-align: center;
+}
+
+.menuSeparator {
+	height: 36px;
+	width: 1px;
+	border-right: 1px solid #181818;
+	float:left;
+	margin-top: 8px;
+}
+
+.recommendedChoices {
+	height:800px;
+	width:100%;
+	background-color: #fff;
+}
+
+@media (min-width: 600px){
+	.heading{
+		background-image: url(http://zmziaja.pl/wp-content/uploads/2018/02/polecane-wyroby.png);
+		width: 470px;
+		height: 80px;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	
+	.block {
+		margin-left: 20%;
+		margin-top: 8%;
+		padding-bottom: 98px;
+	}
+}
+
+@media (max-width: 600px) {
+	.block {
+		margin: 10%;
+	}
+}
+
+@media (max-width: 600px){
+	.heading{
+		background-image: url(http://zmziaja.pl/wp-content/uploads/2018/02/polecane-wyroby.png);
+		height: 80px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+
+.aboutCompany {
+	position:relative; 
+	background-color: #f7f7f7;
+	width: 100%;
+}
+
+.page {
+	background-color: #fff;
+}
+
+.textAboutCompany {
+	padding-top:151px;
+	padding-left:12%;
+}
+
+.abC_heading {
+	background-image: url(http://zmziaja.pl/wp-content/uploads/2018/03/o-firmie.png);
+	background-size: contain;
+}
+
+.blockDescription {
+	padding-left:12%;
+	padding-top:151px;
+	padding-right: 10%;
+}
+
+.description {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #848484;
+	text-align: justify;
+    text-justify: inter-word;
+	line-height: 50px;
+}
+
+.btn_readMore {
+	display: table;
+	margin: 0 auto;
+    background-color: rgb(162, 13, 16);
+    color: #fff;
+	border: none;
+	height: 70px;
+	width: 208px;
+	padding: 15px 32px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400; 
+    font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s;
+    cursor: pointer;
+	margin-top: 84px;
+}
+
+.btn_readMore:hover {
+	background-color: #f7f7f7;
+	color: #a20d10;
+	border: 2px solid #a20d10;
+}
+
+/*---------------------------------------
+ **   Footer           -----
+-----------------------------------------*/
+.footer {
+    background: #eaeaea;
+	width: 100%;
+	height: 225px;
+}
